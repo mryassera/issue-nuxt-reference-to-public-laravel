@@ -4,7 +4,7 @@
           <v-container fluid>
             <v-row>
              
-              <!-- Grid images --------- -->
+              <!-- Grid images -->
               <v-col v-for="n in images" :key="n.id" class="d-flex child-flex" cols="4" md="2">
                 <v-card flat tile class="d-flex">
                   <v-img
@@ -15,7 +15,7 @@
                     class="grey lighten-2"
                   >
                   </v-img>
-              <!-- ------------------- -->
+             
   
                 </v-card>
               </v-col>
